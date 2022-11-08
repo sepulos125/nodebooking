@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/p587485/public_html
+        - /bin/cp -r /home/p587485/sepulos125/nodebooking/* $DEPLOYPATH
